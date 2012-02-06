@@ -1,1 +1,1 @@
-require "nested_form/engine"
+require "nested_form/railtie"

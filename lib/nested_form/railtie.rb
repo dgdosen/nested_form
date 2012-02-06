@@ -1,7 +1,7 @@
 require 'rails'
 
 module NestedForm
-  class Engine < ::Rails::Engine
+  class Railtie < ::Rails::Railtie
     initializer 'nested_form' do |app|
       ActiveSupport.on_load(:action_view) do
         require "nested_form/view_helper"
